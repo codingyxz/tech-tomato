@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>tech-dubbo</module>
+        <module>tech-mybatis</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -22,6 +23,26 @@
 
         <dependencies>
 
+            <!--junit依赖-->
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>RELEASE</version>
+            </dependency>
+            <!--引入logback的依赖，这个日志框架实现了slf4j规范-->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.2.6</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.24</version>
+                <scope>provided</scope>
+            </dependency>
 
         </dependencies>
 
