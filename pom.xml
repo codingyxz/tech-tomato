@@ -10,6 +10,7 @@
     <modules>
         <module>tech-dubbo</module>
         <module>tech-mybatis</module>
+        <module>tech-jdbc</module>
     </modules>
     <packaging>pom</packaging>
 
