@@ -4,6 +4,8 @@ import lombok.Data;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
+
 /**
  * @Desc TODO
  * @Date 2025-07-09
@@ -13,11 +15,10 @@ import lombok.experimental.Accessors;
 @Data
 @ToString
 @Accessors(chain = true)
-public class User {
+public class User implements Serializable {
 
     private String name;
     private String pwd;
-    private Integer age;
     private String sex;
     private String address;
 

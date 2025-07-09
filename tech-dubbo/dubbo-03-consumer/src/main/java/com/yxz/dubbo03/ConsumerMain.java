@@ -18,7 +18,7 @@ public class ConsumerMain {
 
         UserService userService = (UserService) applicationContext.getBean("userService");
 
-        userService.login("admin","123456");
+        System.out.println(userService.login("admin", "123456"));
 
         System.in.read();
     }

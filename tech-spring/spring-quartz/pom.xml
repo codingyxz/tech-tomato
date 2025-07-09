@@ -8,7 +8,7 @@
         <version>2.6.4</version><!--        2.7.18-->
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yxz.sboot</groupId>
+    <groupId>com.yxz</groupId>
     <artifactId>spring-quartz</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-quartz</name>
