@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-security
+  security:
+    user:
+      name: zhang3
+      password: 123456
+
+  main:
+    allow-circular-references: true
+
+debug: false

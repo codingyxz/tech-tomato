@@ -11,6 +11,8 @@
         <module>tech-dubbo</module>
         <module>tech-mybatis</module>
         <module>tech-jdbc</module>
+        <module>tech-jdk</module>
+        <module>tech-spring</module>
     </modules>
     <packaging>pom</packaging>
 
