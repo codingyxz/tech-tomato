@@ -17,7 +17,7 @@ public class MyImportSelector implements ImportSelector {
      */
     @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
-        return new String[]{"com.yxz.sboot.com.yxz.jdbc.entity.Blue", "com.yxz.sboot.com.yxz.jdbc.entity.Red"};
+        return new String[]{"com.yxz.sboot.entity.Blue", "com.yxz.sboot.entity.Red"};
     }
 
     @Override

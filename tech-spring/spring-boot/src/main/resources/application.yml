@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-boot
+
+
+  main:
+    allow-circular-references: true
