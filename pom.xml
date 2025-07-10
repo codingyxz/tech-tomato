@@ -13,6 +13,7 @@
         <module>tech-jdbc</module>
         <module>tech-jdk</module>
         <module>tech-spring</module>
+        <module>tech-spi</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -30,7 +31,7 @@
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter</artifactId>
-                <version>RELEASE</version>
+                <version>5.10.0</version>
             </dependency>
             <!--引入logback的依赖，这个日志框架实现了slf4j规范-->
             <dependency>
