@@ -1,0 +1,19 @@
+Java HotSpot(TM) 64-Bit Server VM (25.371-b11) for bsd-amd64 JRE (1.8.0_371-b11), built on Mar 17 2023 03:56:31 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17)
+Memory: 4k page, physical 16777216k(44284k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=62914560 -XX:MaxHeapSize=62914560 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+2025-07-31T18:42:33.206-0800: 6.856: [GC (Allocation Failure) [PSYoungGen: 15318K->2540K(17920K)] 15318K->13487K(58880K), 0.0090472 secs] [Times: user=0.01 sys=0.04, real=0.01 secs] 
+2025-07-31T18:42:41.306-0800: 14.956: [GC (Allocation Failure) [PSYoungGen: 17837K->2544K(17920K)] 28784K->28593K(58880K), 0.0114324 secs] [Times: user=0.01 sys=0.05, real=0.01 secs] 
+2025-07-31T18:42:41.318-0800: 14.967: [Full GC (Ergonomics) [PSYoungGen: 2544K->0K(17920K)] [ParOldGen: 26049K->28396K(40960K)] 28593K->28396K(58880K), [Metaspace: 3369K->3369K(1056768K)], 0.0072272 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+2025-07-31T18:42:49.105-0800: 22.754: [Full GC (Ergonomics) [PSYoungGen: 15261K->2400K(17920K)] [ParOldGen: 28396K->40696K(40960K)] 43657K->43096K(58880K), [Metaspace: 3369K->3369K(1056768K)], 0.0107002 secs] [Times: user=0.03 sys=0.03, real=0.01 secs] 
+Heap
+ PSYoungGen      total 17920K, used 10050K [0x0 0000007bec00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 15360K, 65% used [0x00000007bec00000,0x00000007bf5d0ba8,0x00000007bfb00000)
+  from space 2560K, 0% used [0x00000007bfd80000,0x00000007bfd80000,0x00000007c0000000)
+  to   space 2560K, 0% used [0x00000007bfb00000,0x00000007bfb00000,0x00000007bfd80000)
+ ParOldGen       total 40960K, used 40696K [0x00000007bc400000, 0x00000007bec00000, 0x00000007bec00000)
+  object space 40960K, 99% used [0x00000007bc400000,0x00000007bebbe170,0x00000007bec00000)
+ Metaspace       used 3377K, capacity 4496K, committed 4864K, reserved 1056768K
+  class space    used 374K, capacity 388K, committed 512K, reserved 1048576K
