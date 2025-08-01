@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
  * -XX:+UseConcMarkSweepGC
  * -XX:+UseG1GC
  */
-public class GCTest {
+public class  GCTest {
 
     public static void main(String[] args) throws InterruptedException {
         test2();

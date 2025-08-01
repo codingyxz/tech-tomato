@@ -9,9 +9,11 @@
     <!--  port 为-1，表示从20880逐个向后尝试，避免端口冲突 -->
     <dubbo:protocol name="dubbo" port="-1"/>
 
+    <dubbo:registry address="zookeeper://8.152.195.169:2181" client="curator5"/>
+
     <bean id="userService" class="com.yxz.dubbo02.service.UserServiceImpl"/>
 
-    <dubbo:service interface="com.yxz.dubbo01.service.UserService" ref="userService"/>
+    <dubbo:service interface="com.yxz.dubbo01.service.UserService" ref="userService" filter="MyProFilter"/>
 
 
 </beans>

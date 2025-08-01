@@ -4,8 +4,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
 
-    <dubbo:application name="dubbo-03-consumer" />
+    <dubbo:application name="dubbo-03-consumer"/>
 
-    <dubbo:reference interface="com.yxz.dubbo01.service.UserService" id="userService" url="dubbo://192.168.1.209:20880/com.yxz.dubbo01.service.UserService"/>
+    <dubbo:registry address="zookeeper://8.152.195.169:2181"/>
+
+    <dubbo:reference interface="com.yxz.dubbo01.service.UserService"
+                     filter="myConFilter"
+                     id="userService"/>
+
+    <!--  url="dubbo://192.168.1.209:20880/com.yxz.dubbo01.service.UserService"  -->
 
 </beans>

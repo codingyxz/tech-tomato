@@ -4,6 +4,8 @@ spring:
 
 
 dubbo:
+  registry:
+    address: zookeeper://8.152.195.169:2181
   protocol:
     name: dubbo
     port: -1

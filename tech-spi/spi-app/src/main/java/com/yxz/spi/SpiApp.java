@@ -1,5 +1,6 @@
 package com.yxz.spi;
 
+import java.util.Iterator;
 import java.util.ServiceLoader;
 
 /**
@@ -11,7 +12,10 @@ public class SpiApp {
 
         ServiceLoader<ColorService> load = ServiceLoader.load(ColorService.class);
 
-        for (ColorService service : load) {
+        Iterator<ColorService> iterator = load.iterator();
+
+        while (iterator.hasNext()) {
+            ColorService service = iterator.next();
             System.out.println(service + ":" + service.printColor());
         }
 
