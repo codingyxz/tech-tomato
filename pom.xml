@@ -14,6 +14,7 @@
         <module>tech-jdk</module>
         <module>tech-spring</module>
         <module>tech-spi</module>
+        <module>tech-redis</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: redis-sboot
+
+
+  redis:
+    host: 8.152.195.169
+    port: 6379
+    password: 12345687
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        time-between-eviction-runs: 10s
